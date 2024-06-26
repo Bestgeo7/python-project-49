@@ -1,14 +1,11 @@
 #!/usr/bin/env python3
-
 import prompt
 import random
-from brain_games.games.even import is_even
-from brain_games.games.even import question
-
+from brain_games.games.gcd import gcd
 
 def main():
     print("Welcome to the Brain Games!")
-    question()
+    gcd()
 
 
 if __name__ == "__main__":
